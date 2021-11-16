@@ -1,6 +1,10 @@
+import {Main} from './components/Main';
+
 function App() {
   return (
-    <h1>Genesis TikTok App</h1>
+    <>
+      <Main />
+    </>
   );
 }
 
