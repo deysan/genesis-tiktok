@@ -1,3 +1,4 @@
+import data from '../user-feed.json';
 import React from 'react';
 import {Carousel} from './Carousel';
 import {Card} from './Card';
@@ -5,6 +6,16 @@ import {Card} from './Card';
 const CARDS = 10;
 
 class Main extends React.Component {
+  state = {
+    items: []
+  };
+
+  componentDidMount() {
+    this.setState({
+      items: data.itemList
+    })
+  }
+  
   render() {
     return (
       <Carousel>
