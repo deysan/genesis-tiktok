@@ -119,12 +119,12 @@ body {
 
 .video-sidebar {
   position: absolute;
-  bottom: 25%;
+  bottom: 23%;
   right: 10px;
 }
 
 .video-sidebar-button {
-  padding: 20px;
+  padding: 15px 10px;
   text-align: center;
 }
 

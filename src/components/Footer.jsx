@@ -1,9 +1,13 @@
 export const Footer = (props) => {
 
+  const {text, hashtags} = props;
+
+  console.log(props)
+
   return <div className='video-footer'>
     <div className='video-footer-text'>
-      <h2 className='video-footer-title'>Somanath Goudar</h2>
-      <p className='video-footer-description'>Best Video Ever</p>
+      <h3 className='video-footer-title'>{text}</h3>
+      {hashtags ? <p className='video-footer-description'>{hashtags}</p> : null}
     </div>
   </div>
 };

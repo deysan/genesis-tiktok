@@ -2,11 +2,13 @@ import { MdArrowBack } from 'react-icons/md';
 
 export const Header = (props) => {
 
+  const {nickname, avatar} = props;
+
   return <div className='video-header'>
     <span className='material-icons'><MdArrowBack /></span>
     <div className='video-header-user'>
-      <h3 className='video-header-name'>User Name</h3>
-      <img className='video-header-avatar' src='https://www.w3schools.com/howto/img_avatar.png' alt='' />
+      <h3 className='video-header-name'>{nickname}</h3>
+      <img className='video-header-avatar' src={avatar} alt='' />
     </div>
   </div>
 };
