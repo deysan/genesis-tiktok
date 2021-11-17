@@ -25,9 +25,9 @@ export const getTrendingFeed = async () => {
   }
 };
 
-export const getUserInfo = async () => {
+export const getUserInfo = async (name) => {
   try {
-      const response = await options.get('/user/info/dave.xp');
+      const response = await options.get('/user/info/' + name);
 
       return [null, response.data];
   } catch (err) {
