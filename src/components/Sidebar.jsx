@@ -1,8 +1,6 @@
 import { MdOutlineMessage, MdFavoriteBorder } from 'react-icons/md';
 
-export const Sidebar = (props) => {
-
-  const {like, comment} = props;
+export const Sidebar = ({like, comment}) => {
 
   return <div className='video-sidebar'>
     <div className='video-sidebar-button'>

@@ -5,14 +5,14 @@ import { Footer } from './Footer';
 
 export const Video = (props) => {
 
-  const {id} = props;
+  const {nickname, video, text, like} = props;
 
   return <div className='video-container'>
     <div className='video'>
-      {<Header key={id} {...props}/>}
-      {<Player key={id} {...props}/>}
-      {<Sidebar key={id} {...props}/>}
-      {<Footer key={id} {...props}/>}
+      {<Header key={nickname} {...props}/>}
+      {<Player key={video} {...props}/>}
+      {<Sidebar key={like} {...props}/>}
+      {<Footer key={text} {...props}/>}
     </div>
   </div>
 };

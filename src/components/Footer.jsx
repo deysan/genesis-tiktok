@@ -1,8 +1,4 @@
-export const Footer = (props) => {
-
-  const {text, hashtags} = props;
-
-  console.log(props)
+export const Footer = ({text, hashtags}) => {
 
   return <div className='video-footer'>
     <div className='video-footer-text'>

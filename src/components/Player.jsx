@@ -1,7 +1,6 @@
-export const Player = (props) => {
+export const Player = ({video}) => {
 
   // const {video} = props;
 
-  return <img className='video-player' src='https://via.placeholder.com/400x750' alt='' />
-
+  return <video className='video-player' src={video} loop />
 };
