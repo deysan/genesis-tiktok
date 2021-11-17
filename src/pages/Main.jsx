@@ -32,7 +32,7 @@ export const Main = () => {
     return <Preloader />
   } return (
     <>
-      {feeds.slice(0, 5).map(feed => {
+      {feeds.slice(0, 30).map(feed => {
         const feedInfo = {
           id: feed.id,
           nickname: feed.authorMeta?.nickName,
