@@ -1,3 +1,15 @@
+# Genesis TikTok App — Practice Task Front-end School
+
+Переді мною стояло завдання зробити сайт-аналог TikTok. У розробці цього навчального проекту я застосував бібліотеку React.
+
+Дизайн проекту підготував у тому самому стилі, що й оригінал. На головному екрані з'являється одна сутність. Перемикатися на іншу сутність можна за допомогою скрола. Усього підвантажуються 30 сутностей. У процесі завантаження даних реалізувано прелоадер.
+
+У роботі застосовано API https://rapidapi.com/premium-apis-premium-apis-default/api/tiktok33/ (колекція Get Trending Feed).
+
+Одна сутність відображає автора, аватарку, відео, текстовий контент, кількість лайків і коментарів.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
